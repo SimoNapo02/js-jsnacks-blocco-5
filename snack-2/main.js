@@ -1,5 +1,6 @@
-// Crea un array di 10 oggetti che rappresentano una zucchina, indicando per ognuna varietà, peso e lunghezza.
-// Calcola quanto pesano tutte le zucchine.
+// Crea 10 oggetti che rappresentano una zucchina.
+// Dividi in due array separati le zucchine che misurano meno o più di 15cm.
+// Infine stampa separatamente quanto pesano i due gruppi di zucchine.
 const zucchina = [
     {
         lunghezza:" 10",
@@ -43,9 +44,3 @@ const zucchina = [
     },
 ]
 
-let totPeso = 0;
-for (let i = 0; i < zucchina.length; i++) {
-    totPeso =totPeso + zucchina[i].peso;
-}
-
-console.log (totPeso + zucchina.peso)
