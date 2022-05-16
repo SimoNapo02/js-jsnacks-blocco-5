@@ -44,3 +44,15 @@ const zucchina = [
     },
 ]
 
+const short = [];
+const long = [];
+
+for (let i = 0; i < zucchina.length; i++) {
+    if (zucchina[i].lunghezza < 15) {
+        short.push(zucchina[i]);
+    } else {
+        long.push(zucchina[i]);
+    }
+}
+
+console.log(short, long);
