@@ -5,54 +5,61 @@
 // Infine stampa separatamente i 3 array.v
 const car = [
     {
-       marca:" 10",
+       marca:" Toyota",
        modello: "30",
-       alimentazione:
+       alimentazione: "benzina",
     },
     {
-       marca:" 13",
+       marca:" jeep",
        modello: "55",
-       alimentazione:
+       alimentazione:"diesel",
     },
     {
-       marca:" 12",
+       marca:" Audi",
        modello: "21",
-       alimentazione:
+       alimentazione:"elettrica",
     },
     {
-       marca:" 14",
+       marca:" Toyota",
        modello: "35",
-       alimentazione:
+       alimentazione:"metano",
     },
     {
-       marca:" 10",
+       marca:" Toyota",
        modello: "25",
-       alimentazione:
+       alimentazione:"diesel",
     },
     {
-       marca:" 7",
+       marca:"fiat",
        modello: "30",
-       alimentazione:
+       alimentazione:"benzina",
     },
     {
-       marca:" 11",
+       marca:"jeep",
        modello: "50",
-       alimentazione:
+       alimentazione:"diesel",
     },
     {
-       marca:" 13",
+       marca:" jeep",
        modello: "33",
-       alimentazione:
+       alimentazione:"metano",
     },
     {
-       marca:" 15",
+       marca:"audi",
        modello: "12",
-       alimentazione:
+       alimentazione:"benzina",
     },
     {
-       marca:" 16",
+       marca:"fiat",
        modello: "45",
-       alimentazione:
+       alimentazione:"elettrica",
     },
 ]
 
+// creo array vuoti in base all'alimentazione dell'auto
+
+const benzina = [];
+
+const diesel = [];
+
+const other = [];
