@@ -2,44 +2,44 @@
 // Calcola quanto pesano tutte le zucchine.
 const zucchina = [
     {
-        lunghezza:" 10",
-        peso: "30",
+        lunghezza: 10,
+        peso: 30,
     },
     {
-        lunghezza:" 13",
-        peso: "55",
+        lunghezza: 13,
+        peso: 55,
     },
     {
-        lunghezza:" 12",
-        peso: "21",
+        lunghezza: 12,
+        peso: 21,
     },
     {
-        lunghezza:" 14",
-        peso: "35",
+        lunghezza: 14,
+        peso: 35,
     },
     {
-        lunghezza:" 10",
-        peso: "25",
+        lunghezza: 10,
+        peso: 25,
     },
     {
-        lunghezza:" 7",
-        peso: "30",
+        lunghezza: 7,
+        peso: 30,
     },
     {
-        lunghezza:" 11",
-        peso: "50",
+        lunghezza: 11,
+        peso: 50,
     },
     {
-        lunghezza:" 13",
-        peso: "33",
+        lunghezza: 13,
+        peso: 33,
     },
     {
-        lunghezza:" 15",
-        peso: "12",
+        lunghezza: 15,
+        peso: 12,
     },
     {
-        lunghezza:" 16",
-        peso: "45",
+        lunghezza: 16,
+        peso: 45,
     },
 ]
 
